@@ -1,14 +1,22 @@
 <template>
   <div>
-    <Logos mb-6 />
+    <!--
+      <Logos mb-6 />
+    -->
     <Suspense>
-      <PageView />
+      <!--
+        <PageView />
+        <Phoillips />
+      -->
+      <TestTheModule />
       <template #fallback>
         <div op50 italic>
           <span animate-pulse>Loading...</span>
         </div>
       </template>
     </Suspense>
-    <InputEntry />
+    <!--
+      <InputEntry />
+    -->
   </div>
 </template>
